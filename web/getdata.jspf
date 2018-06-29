@@ -1,0 +1,20 @@
+
+<div class="col-md-12 col-md-12-custom">
+    <form method="POST" style="margin-top: 20px;" id='form' action="main" style="text-align: center">
+         <b>Value a: </b> <input type="number" id="x_axis" name="a" value="3" placeholder="3" /><br/><br/>
+        <b>Value b </b> <input type="numer" id="y_axis" name="b" value="2" placeholder="2" /><br/><br/>
+         <b>Value c </b> <input type="numer" id="x_axis" name="c" value="-1" placeholder="4" /><br/><br/>
+        
+        <b>X points: </b> <input type="color" id="x_axis" name="x_axis" value="black" placeholder="" /><br/><br/>
+        <b>Y points: </b> <input type="color" id="y_axis" name="y_axis" value="black" placeholder="" /><br/><br/>
+        <b>Function color: </b> <input type="color" id="function_color" name="function_color" value="black" placeholder="" /><br/><br/>
+        <b>Background color: </b> <input type="color" id="background_color" name="background_color" value="yellow" placeholder="" /><br/><br/>
+        <b>Lines color: </b> <input type="color" id="lines_color" name="lines_color" value="" placeholder="" /><br/><br/>
+        <b>X-axis range: </b> <input type="number" id="x_axis_range" name="x_axis_range" value="50" placeholder="" /><br/><br/>
+        <b>Y-axis range: </b> <input type="number" id="y_axis_range" name="y_axis_range" value="30" placeholder="" /><br/><br/>
+        
+        <input type="submit" onclick='return sprawdz();' value="Send" />
+        <br/><br/>
+        <script src="WebContent/sprawdz_formularz.js"></script>
+    </form>
+</div>
